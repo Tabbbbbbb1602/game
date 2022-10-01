@@ -1,0 +1,54 @@
+{
+    "name": "TouchInput",
+    "maps": [
+        {
+            "name": "touch",
+            "id": "8806a057-486f-4a97-81b1-d0feb6fc28cf",
+            "actions": [
+                {
+                    "name": "touchpos",
+                    "type": "Value",
+                    "id": "791b4e77-7745-4615-abf0-755cec08fa62",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "touchhold",
+                    "type": "Button",
+                    "id": "012e696f-2f94-4ec2-b59b-8d53ec501a6c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e1e79bde-d1aa-4cd6-89fc-c955c83bc5d6",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchpos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8b49053-1a19-49ef-ba99-ff17f2971839",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchhold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
