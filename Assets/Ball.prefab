@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 850387465877216281}
   - component: {fileID: 850387465877216277}
   - component: {fileID: 2094371464125452967}
-  - component: {fileID: -8957207780869255629}
+  - component: {fileID: 821889968234751467}
   m_Layer: 9
   m_Name: Ball
   m_TagString: Cube
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canThrow: 0
   PowEnemy: 1
---- !u!114 &-8957207780869255629
+--- !u!114 &821889968234751467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 850387465877216280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0279765a507dc0349aa4f95f64101cd9, type: 3}
+  m_Script: {fileID: 11500000, guid: c4c3e63f46f4d304da897b2faeeac9a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0

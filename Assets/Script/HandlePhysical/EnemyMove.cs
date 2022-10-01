@@ -50,19 +50,6 @@ public class EnemyMove : MonoBehaviour
         
     }
 
-   /* void direction()
-    {
-        hand = GameObject.Find("ObstaclePlayer");
-        ChildTransforms = new Transform[hand.transform.childCount];
-        for (int i = 0; i < hand.transform.childCount; i++)
-        {
-            ChildTransforms[i] = hand.transform.GetChild(i);
-        }
-
-        Debug.Log(ChildTransforms);
-    }*/
-
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Cube")
@@ -77,7 +64,7 @@ public class EnemyMove : MonoBehaviour
     void spawnBall()
     {
         copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
-        copyBall.transform.GetComponent<Collider>().tag = "Enemy";
+        copyBall.transform.GetComponent<ColliderBall>().tag = "Enemy";
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
         
 

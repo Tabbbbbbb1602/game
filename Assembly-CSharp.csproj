@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C11284AA-25B9-7B04-409D-2D9DFE07AF7D}</ProjectGuid>
+    <ProjectGuid>{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -74,6 +74,10 @@
     <Compile Include="Assets\Script\Shop\UI\ShopDialog.cs" />
     <Compile Include="Assets\Script\Shop\Player.cs" />
     <Compile Include="Assets\Script\Shop\Pref.cs" />
+    <Compile Include="Assets\Script\HandlePhysical\ColliderBall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CharacterPack Lowpoly (FREE)\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -26,10 +26,12 @@ public class PlayerMove : MonoBehaviour
     Vector3 StartPos;
     Vector3 EndPos;
     Vector2 delta;
+    Vector3 gravity = Vector3.zero;
 
     private void Start()
     {
         copyBall = Instantiate(Ball, Vector3.zero, Quaternion.identity);
+        copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
         haveBall = true;
     }
 
@@ -46,6 +48,19 @@ public class PlayerMove : MonoBehaviour
         inputs.touch.touchhold.started += StartThrow;
         inputs.touch.touchhold.canceled += EndThrow;
     }
+
+    private void Update()
+    {
+        if (!controller.isGrounded)
+        {
+            gravity.y -= 9.8f;
+            controller.Move(gravity * Time.deltaTime);
+        } else
+        {
+            gravity.y = -9.8f;
+        }
+    }
+
     private void StartThrow(InputAction.CallbackContext obj)
     {
         if (haveBall)
@@ -91,8 +106,8 @@ public class PlayerMove : MonoBehaviour
 
     void spawnBall()
     {
-        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
-        copyBall.transform.GetComponent<Collider>().tag = "Player";
+        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, -1.5f, 1.0f), Quaternion.identity);
+        copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
     }
 

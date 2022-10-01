@@ -15,15 +15,17 @@ public class Collider : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.GetComponent<Collider>() != null)
+
+        if (collision.transform.GetComponent<ColliderBall>() != null)
+
         {
             if (type == TypeT.collide)
             {
-                if (collision.transform.GetComponent<Collider>().tag != tag)
+                if (collision.transform.GetComponent<ColliderBall>().tag != tag)
                 {
-
+                    Destroy(gameObject);
                 }
-                if (collision.transform.GetComponent<Collider>().tag == tag)
+                if (collision.transform.GetComponent<ColliderBall>().tag == tag)
                 {
                    
                 }
@@ -33,11 +35,11 @@ public class Collider : MonoBehaviour
 
             if(type == TypeT.collided)
             {
-                if (collision.transform.GetComponent<Collider>().tag != tag)
+                if (collision.transform.GetComponent<ColliderBall>().tag != tag)
                 {
 
                 }
-                if (collision.transform.GetComponent<Collider>().tag == tag)
+                if (collision.transform.GetComponent<ColliderBall>().tag == tag)
                 {
                     Destroy(gameObject);
                 }
