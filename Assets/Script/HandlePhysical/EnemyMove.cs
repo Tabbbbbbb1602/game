@@ -63,7 +63,7 @@ public class EnemyMove : MonoBehaviour
 
     void spawnBall()
     {
-        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
+        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, 1.5f, 1.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Enemy";
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
         

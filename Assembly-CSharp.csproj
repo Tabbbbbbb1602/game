@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Shop\PrefConst.cs" />
     <Compile Include="Assets\Script\Shop\ShopManager.cs" />
+    <Compile Include="Assets\Script\HandlePhysical\ColliderBall.cs" />
     <Compile Include="Assets\Script\Shop\TabControl.cs" />
     <Compile Include="Assets\Script\Shop\UI\Dialog.cs" />
     <Compile Include="Assets\Script\Shop\Singleton.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Assets\Script\Shop\UI\ShopDialog.cs" />
     <Compile Include="Assets\Script\Shop\Player.cs" />
     <Compile Include="Assets\Script\Shop\Pref.cs" />
-    <Compile Include="Assets\Script\HandlePhysical\ColliderBall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CharacterPack Lowpoly (FREE)\README.txt" />

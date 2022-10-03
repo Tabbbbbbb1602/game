@@ -30,7 +30,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Start()
     {
-        copyBall = Instantiate(Ball, Vector3.zero, Quaternion.identity);
+        copyBall = Instantiate(Ball, Vector3.zero + new Vector3(1.0f, 1.0f, -30.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
         haveBall = true;
     }
@@ -106,7 +106,7 @@ public class PlayerMove : MonoBehaviour
 
     void spawnBall()
     {
-        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, -1.5f, 1.0f), Quaternion.identity);
+        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, 1.5f, 1.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
     }
