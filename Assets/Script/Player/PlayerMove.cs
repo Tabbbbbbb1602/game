@@ -28,18 +28,22 @@ public class PlayerMove : MonoBehaviour
     Vector2 delta;
     Vector3 gravity = Vector3.zero;
 
+    Animator m_animator;
+
     private void Start()
     {
         copyBall = Instantiate(Ball, Vector3.zero + new Vector3(1.0f, 1.0f, -30.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
+        copyBall.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
         haveBall = true;
     }
 
     private void Awake()
     {
         inputs = new TouchInput();
-
+        m_animator = gameObject.GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+        m_animator.SetBool("isRunning", false);
     }
     private void OnEnable()
     {
@@ -66,6 +70,7 @@ public class PlayerMove : MonoBehaviour
         if (haveBall)
         {
             StartPos = copyBall.transform.position;
+            m_animator.SetBool("isRunning", true);
         }
     }
 
@@ -98,6 +103,7 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Cube")
         {
+            m_animator.SetBool("isRunning", false);
             Destroy(collision.gameObject);
             haveBall = true;
         }
@@ -108,6 +114,7 @@ public class PlayerMove : MonoBehaviour
     {
         copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, 1.5f, 1.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
+        copyBall.GetComponent<Renderer>().material.SetColor("_Color", Color.red);   
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
     }
 
@@ -117,6 +124,7 @@ public class PlayerMove : MonoBehaviour
         {
             direction = ((EndPos - StartPos) + new Vector3(2, 0, 10)).normalized;
             copyBall.GetComponent<Rigidbody>().AddForce(direction * ballSpeed, ForceMode.Impulse);
+            m_animator.SetBool("isRunning", true);
             haveBall = false;
         }
     }

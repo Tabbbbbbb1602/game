@@ -34,6 +34,8 @@ public class EnemyMove : MonoBehaviour
 
     private Vector3 directionEnemy;
 
+    Animator m_animator;
+
     void Start()
     {
         StartCoroutine(MoveEnemy(2.0f));
@@ -42,6 +44,12 @@ public class EnemyMove : MonoBehaviour
         hand = GameObject.Find("ObstaclePlayer");
         //direction();
 
+    }
+
+    private void Awake()
+    {
+        m_animator = gameObject.GetComponent<Animator>();
+        m_animator.SetBool("isRunning", true);
     }
 
     // Update is called once per frame
@@ -54,7 +62,9 @@ public class EnemyMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Cube")
         {
+            m_animator.SetBool("isRunning", false);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<BoxCollider>().isTrigger = true;
             haveBall = true;
         }
         spawnBall();
@@ -63,12 +73,10 @@ public class EnemyMove : MonoBehaviour
 
     void spawnBall()
     {
-        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, 1.5f, 1.0f), Quaternion.identity);
+        copyBall = Instantiate(Ball, gameObject.transform.position + new Vector3(1.0f, 1.5f, 3.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Enemy";
         copyBall.GetComponent<Rigidbody>().isKinematic = true;
-        
-
-      
+        copyBall.GetComponent<Renderer>().material.SetColor("_Color", Color.yellow);
     }
 
     IEnumerator ThrowEnemy(float waitTime)
@@ -83,8 +91,16 @@ public class EnemyMove : MonoBehaviour
             directionEnemy.z = Random.Range(directionEnemy.z - 10f, directionEnemy.z + 10f);
             copyBall.GetComponent<Rigidbody>().isKinematic = false;
             copyBall.GetComponent<Rigidbody>().AddForce(directionEnemy.normalized * PowEnemy, ForceMode.VelocityChange);
+            StartCoroutine(SetIsTrigger(0.5f));
+            m_animator.SetBool("isRunning", true);
             haveBall = false;
         }
+    }
+
+    IEnumerator SetIsTrigger(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        gameObject.GetComponent<BoxCollider>().isTrigger = false;
     }
 
     IEnumerator spawEnemy(float waitTime)
