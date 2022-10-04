@@ -370,11 +370,17 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Fancy Footsteps/Example/ExampleAssets/ActivateAndDeactivateForExample.cs"
+"Assets/Script/Enemy/EnemyMove.cs"
 "Assets/Script/HandlePhysical/Ball.cs"
-"Assets/Script/HandlePhysical/Collider.cs"
 "Assets/Script/HandlePhysical/ColliderBall.cs"
 "Assets/Script/HandlePhysical/ColliderObstacle.cs"
-"Assets/Script/HandlePhysical/EnemyMove.cs"
+"Assets/Script/ManagerUI/Game.cs"
+"Assets/Script/ManagerUI/GameLoad.cs"
+"Assets/Script/ManagerUI/MainMenu.cs"
+"Assets/Script/ManagerUI/Setting.cs"
+"Assets/Script/ManagerUI/UI.cs"
+"Assets/Script/ManagerUI/UiManager.cs"
 "Assets/Script/Player/PlayerMove.cs"
 "Assets/Script/Shop/GameManager.cs"
 "Assets/Script/Shop/Player.cs"
@@ -388,6 +394,7 @@
 "Assets/Script/Shop/UI/ShopDialog.cs"
 "Assets/Script/Shop/UI/ShopItemUI.cs"
 "Assets/TouchInput.cs"
+"Assets/UI button pack 2/Scene/CreateObj.cs"
 -langversion:9.0
 
 /deterministic
