@@ -2,15 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ShopDialog : Dialog
 {
     public Transform gridRoot;
     public ShopItemUI itemUIPrefab;
 
-    public override void Show(bool isShow)
+    /*public override void Show(bool isShow)
     {
         base.Show(isShow);
 
+        UpdateUI();
+    }*/
+
+    private void Start()
+    {
         UpdateUI();
     }
 

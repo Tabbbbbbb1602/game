@@ -15,7 +15,7 @@ D:/game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52326
+55457
 Successfully changed project path to: D:/game
 D:/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 116.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008495 seconds.
+Registered in 0.007032 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
-Native extension for iOS target not found
 [usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 117.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 125.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.717 seconds
 Domain Reload Profiling:
-	ReloadAssembly (735ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (346ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (125ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004073 seconds.
+Registered in 0.003897 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 202.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 203.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.470 seconds
+- Completed reload, in  2.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2471ms)
-		BeginReloadAssembly (267ms)
+	ReloadAssembly (2128ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (188ms)
-		EndReloadAssembly (1929ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1718ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (504ms)
+			SetupTypeCache (406ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (1111ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (987ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (43ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (203ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (600ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (525ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4570 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (76.8 KB). Loaded Objects now: 5053.
-Memory consumption went from 264.9 MB to 264.8 MB.
-Total: 2.526700 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.104300 ms  DeleteObjects: 0.087200 ms)
+Unloading 4577 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (68.7 KB). Loaded Objects now: 5060.
+Memory consumption went from 265.7 MB to 265.6 MB.
+Total: 2.336500 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.115800 ms MarkObjects: 1.922200 ms  DeleteObjects: 0.075800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,220 +167,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 405396.569295 seconds.
-  path: Assets/UI button pack 2/Light Blue/MISSION-2.png
-  artifactKey: Guid(dacd2fd160fa9614085c28a54b9405b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/MISSION-2.png using Guid(dacd2fd160fa9614085c28a54b9405b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02165a8352ca297d354889f95c20832e') in 0.251492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UI button pack 2/Light Blue/ok-2.png
-  artifactKey: Guid(1875e873f6e5fe34387ff4ecc18ceb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/ok-2.png using Guid(1875e873f6e5fe34387ff4ecc18ceb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde2884034c41d4c68c692703b50258') in 0.096160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI button pack 2/Light Blue/back-2.png
-  artifactKey: Guid(9691eaf23c2fb434f8b2f3bf9bb712ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/back-2.png using Guid(9691eaf23c2fb434f8b2f3bf9bb712ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d381e0505ae258f6e683b48d489b74f') in 0.127026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UI button pack 2/Light Blue/FREE-2.png
-  artifactKey: Guid(e3b53fa477d752c43af238f34e6313bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/FREE-2.png using Guid(e3b53fa477d752c43af238f34e6313bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9131a7c6f42d44539b758b880954d1f') in 0.134480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI button pack 2/Light Blue/info-2.png
-  artifactKey: Guid(dfe8389253f5dcc47915af17b650a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/info-2.png using Guid(dfe8389253f5dcc47915af17b650a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15961d4106eaabd423158ee7194ab63') in 0.106884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI button pack 2/Light Blue/1-left-2.png
-  artifactKey: Guid(4d7caeb12d6c6be40b1b885769883568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/1-left-2.png using Guid(4d7caeb12d6c6be40b1b885769883568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79183aec172a74de3af3150a24d46272') in 0.117913 seconds 
+  Time since last request: 83737.918178 seconds.
+  path: Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_04.prefab
+  artifactKey: Guid(0383dd5c128b6224da9a15658edfa018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_04.prefab using Guid(0383dd5c128b6224da9a15658edfa018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846d0d8df302042e440f49ac35d037fc') in 0.042155 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/achive-2.png
-  artifactKey: Guid(a978613abf25b134ea91305b05fb2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/achive-2.png using Guid(a978613abf25b134ea91305b05fb2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e017e48054b1321db9285b29b0648e53') in 0.141553 seconds 
+  path: Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_12.prefab
+  artifactKey: Guid(08c3f37bf32c6324a95f94b069e6a01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_12.prefab using Guid(08c3f37bf32c6324a95f94b069e6a01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2170fb771a84ac1a8c38747d03110ee9') in 0.124783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UI button pack 2/Light Blue/dolllar-2.png
-  artifactKey: Guid(e54741ca709b5344d9bde63846bb4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/dolllar-2.png using Guid(e54741ca709b5344d9bde63846bb4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498ecc84c87488e72a4c54eef8965086') in 0.081594 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/EpicVictoryEffects/Prefabs/Star_01
+  artifactKey: Guid(b06f7e95a4af8224fbe246db175a443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicVictoryEffects/Prefabs/Star_01 using Guid(b06f7e95a4af8224fbe246db175a443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29649d97ad01d103e4b55504960e663') in 0.000609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UI button pack 2/Light Blue/2.png
-  artifactKey: Guid(0b312c11a9cac6a4895de5ecfd899879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/2.png using Guid(0b312c11a9cac6a4895de5ecfd899879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623653901768202018b6d5c64ba6a29f') in 0.121311 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_11.prefab
+  artifactKey: Guid(b8d79e089a3692440a079d9f6f68b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_11.prefab using Guid(b8d79e089a3692440a079d9f6f68b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246860d8b7f250a49abd8682db23e788') in 0.004645 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI button pack 2/Light Blue/premuim-2.png
-  artifactKey: Guid(297b3686e70dd8e4c831f8586002ae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/premuim-2.png using Guid(297b3686e70dd8e4c831f8586002ae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cc6e2f87f457e94ae13ea0ab3ef1c4') in 0.097942 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_03.prefab
+  artifactKey: Guid(a91fa6e2b94679841975ef64e786ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicVictoryEffects/Prefabs/Star_01/Star_01_Anim_03.prefab using Guid(a91fa6e2b94679841975ef64e786ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b049ec7ea19b9c6292bc8f82154ee4') in 0.015716 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/download-2.png
-  artifactKey: Guid(85231c792230bc14c91f18911369558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/download-2.png using Guid(85231c792230bc14c91f18911369558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1664c558f1b368c78d5e8f875e85f926') in 0.117264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UI button pack 2/Light Blue/menu-2.png
-  artifactKey: Guid(63c62f52091a08d49bcfa9687f64c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/menu-2.png using Guid(63c62f52091a08d49bcfa9687f64c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c7130f98f637f382e556eb0d96e91') in 0.094224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/msuic-2.png
-  artifactKey: Guid(be0c81b4ac079b24a812d34233c3aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/msuic-2.png using Guid(be0c81b4ac079b24a812d34233c3aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248351c869c7784a356534a5928bac36') in 0.071316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003632 seconds.
-  path: Assets/UI button pack 2/Light Blue/92.png
-  artifactKey: Guid(fff8d0ab9ee7d6144a286485023dfb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/92.png using Guid(fff8d0ab9ee7d6144a286485023dfb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef54ff2e29a9afcd81ee882d6456371') in 0.155011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI button pack 2/Light Blue/LEFT-EDGE-2.png
-  artifactKey: Guid(2aba0740f2d58c04283cc0e79244619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/LEFT-EDGE-2.png using Guid(2aba0740f2d58c04283cc0e79244619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500a30e35eb022054430fb550f795049') in 0.079756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UI button pack 2/Light Blue/minus-2.png
-  artifactKey: Guid(21d9f0e9ec1acd2498ee0e447eec90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/minus-2.png using Guid(21d9f0e9ec1acd2498ee0e447eec90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ead0ea18c17d73eb6df116552744b4') in 0.111792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UI button pack 2/Light Blue/ADD-MEMBERS-2.png
-  artifactKey: Guid(77a01015265e6df4293c5f0a284c6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/ADD-MEMBERS-2.png using Guid(77a01015265e6df4293c5f0a284c6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da5f64f6faeab1d5926f9f5be2f421d') in 0.107624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/3-down-2.png
-  artifactKey: Guid(14b1ef82875eb2141a7f681b8dca4e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/3-down-2.png using Guid(14b1ef82875eb2141a7f681b8dca4e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecf5b59571c91cfae53515baf9a8af9') in 0.129851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI button pack 2/Light Blue/no-adds-2.png
-  artifactKey: Guid(9aeaa920453a91c40830de8da873ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/no-adds-2.png using Guid(9aeaa920453a91c40830de8da873ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406f4ade94363552e23474e356c58730') in 0.107392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI button pack 2/Light Blue/line-7.png
-  artifactKey: Guid(65932b0b6369bb24487d04cd59ed8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/line-7.png using Guid(65932b0b6369bb24487d04cd59ed8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af458fc34456e370053622d6f32308f4') in 0.124850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011248 seconds.
-  path: Assets/UI button pack 2/Light Blue/cart-2.png
-  artifactKey: Guid(181daf448c2d4034f861703f2be20580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/cart-2.png using Guid(181daf448c2d4034f861703f2be20580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1baa25981732cb7905072fcf231b48') in 0.093781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI button pack 2/Light Blue/medium-2.png
-  artifactKey: Guid(0fef1671f93d943428d85184dac500b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/medium-2.png using Guid(0fef1671f93d943428d85184dac500b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694582c2b623ec9218d259000c251f1c') in 0.074804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UI button pack 2/Light Blue/EASY-2.png
-  artifactKey: Guid(14e9fcf2a302a0446b9f6a6869fd5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/EASY-2.png using Guid(14e9fcf2a302a0446b9f6a6869fd5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89edb23301f803c795f6945b18ac5e68') in 0.065447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UI button pack 2/Light Blue/PIN-2.png
-  artifactKey: Guid(781a28feea5ccfb479dba1772384696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/PIN-2.png using Guid(781a28feea5ccfb479dba1772384696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce24763f1adb2288755a97194172793') in 0.080951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/chat2.png
-  artifactKey: Guid(cb62cc6d9b22369478bccb76b7bd79ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/chat2.png using Guid(cb62cc6d9b22369478bccb76b7bd79ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0093ce5852b52bef55fd966e4fca377') in 0.082089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UI button pack 2/Light Blue/setting-2.png
-  artifactKey: Guid(0980336d735c698429c3fc9cf790d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/setting-2.png using Guid(0980336d735c698429c3fc9cf790d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeeefb64432562812650702f56eb497') in 0.128492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UI button pack 2/Light Blue/12.png
-  artifactKey: Guid(c33febccfa36b8d499fa02e0b73869ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/12.png using Guid(c33febccfa36b8d499fa02e0b73869ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7354d0e6c9b0e8ec4bbc0a6ca8b17071') in 0.094875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UI button pack 2/Light Blue/2-down-2.png
-  artifactKey: Guid(8a6d4cffe9edab04aa1303710b67da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/2-down-2.png using Guid(8a6d4cffe9edab04aa1303710b67da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f099b155c2a603928d23a3b9578fcff') in 0.108074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/close-2.png
-  artifactKey: Guid(9e00fdd6d504bb9458e86e513add8034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/close-2.png using Guid(9e00fdd6d504bb9458e86e513add8034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30cf9a8db99b6f4444efad28c4d3c66') in 0.098874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/right-2.png
-  artifactKey: Guid(850181ce71dc2b0478e551f7c09efe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/right-2.png using Guid(850181ce71dc2b0478e551f7c09efe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6426d2d163b55927a542c65a4726d7ca') in 0.087373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UI button pack 2/Light Blue/retry-2.png
-  artifactKey: Guid(81252697fdfbed84d8486374243ec21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/retry-2.png using Guid(81252697fdfbed84d8486374243ec21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed85dc0ec8accd4d9a1ca9f9f00dd87') in 0.095746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/RIGHT-EDGE-2.png
-  artifactKey: Guid(fb1ab752599c70c468c49376ee76d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/RIGHT-EDGE-2.png using Guid(fb1ab752599c70c468c49376ee76d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ab1f1dae141974f0edf69487303435') in 0.047569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UI button pack 2/Light Blue/shop-2.png
-  artifactKey: Guid(2210f9ca0c6e34345bac6a09d8f05ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/shop-2.png using Guid(2210f9ca0c6e34345bac6a09d8f05ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89467bc952bd77bdc91163dec722e40') in 0.086596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UI button pack 2/Light Blue/mail-2.png
-  artifactKey: Guid(38e6fa07e3c276d48a00c493df7d5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/mail-2.png using Guid(38e6fa07e3c276d48a00c493df7d5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53539f2e25455d3a7953a3db5a25546e') in 0.136343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UI button pack 2/Light Blue/down-2.png
-  artifactKey: Guid(bf1cc5b1dc9f5d74da337eb95fac1475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/down-2.png using Guid(bf1cc5b1dc9f5d74da337eb95fac1475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58c5fad2a5176df4e61e52c564e892c') in 0.113494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI button pack 2/Light Blue/stop-2.png
-  artifactKey: Guid(f3532129a954c7f42b5196bc7490cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI button pack 2/Light Blue/stop-2.png using Guid(f3532129a954c7f42b5196bc7490cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bf581bd3016b7ff6c3cc60138c050') in 0.088022 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.624 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1625ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1298ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (84.2 KB). Loaded Objects now: 5072.
+Memory consumption went from 267.7 MB to 267.6 MB.
+Total: 3.829400 ms (FindLiveObjects: 0.457200 ms CreateObjectMapping: 0.162900 ms MarkObjects: 3.079700 ms  DeleteObjects: 0.128400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

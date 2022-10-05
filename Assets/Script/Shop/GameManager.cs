@@ -30,7 +30,9 @@ public class GameManager : Singleton<GameManager>
         var newPlayerPrefab = ShopManager.Ins.items[Pref.CurPlayerId].playerPb;
 
         if (newPlayerPrefab)
-            m_player = Instantiate(newPlayerPrefab, Vector3.zero, Quaternion.identity);
+        {
+            m_player = Instantiate(newPlayerPrefab, new Vector3(-0.4f, 3.5f, 60.0f), Quaternion.Euler(new Vector3(0.0f, 210.0f, 0.0f)));
+        }
 
     }
 }

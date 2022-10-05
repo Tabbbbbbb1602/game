@@ -7,10 +7,10 @@ public class Player : MonoBehaviour
     public float jumpForce;
     Rigidbody2D m_rb;
 
-    private void Awake()
+    /*private void Awake()
     {
         m_rb = GetComponent<Rigidbody2D>();
-    }
+    }*/
     void Start()
     {
 

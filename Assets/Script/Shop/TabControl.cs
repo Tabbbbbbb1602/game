@@ -14,7 +14,7 @@ public class TabControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        ShowCharacter();
     }
 
     // Update is called once per frame

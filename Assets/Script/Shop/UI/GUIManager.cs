@@ -12,9 +12,14 @@ public class GUIManager : Singleton<GUIManager>
         MakeSingleton(false);
     }
 
+    private void Start()
+    {
+        coinCountingText.text = "" + Pref.Coins;
+    }
+
     public void UpdateCoins()
     {
         if (coinCountingText)
-            coinCountingText.text = "COINS : " + Pref.Coins;
+            coinCountingText.text = "" + Pref.Coins;
     }
 }

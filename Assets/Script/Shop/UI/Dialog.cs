@@ -2,16 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Dialog : MonoBehaviour
 {
     public Text titleText;
     public Text contentText;
 
-    public virtual void Show(bool isShow)
+    /*public virtual void Show(bool isShow)
     {
         gameObject.SetActive(isShow);
+    }*/
+
+    public void backMenuMain()
+    {
+        SceneManager.LoadScene("Game");
     }
+
 
     public virtual void UpdateDialog(string title, string content)
     {

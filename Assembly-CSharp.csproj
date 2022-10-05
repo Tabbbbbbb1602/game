@@ -61,12 +61,16 @@
     <Compile Include="Assets\Script\ManagerUI\GameLoad.cs" />
     <Compile Include="Assets\Script\HandlePhysical\ColliderBall.cs" />
     <Compile Include="Assets\Script\Shop\TabControl.cs" />
+    <Compile Include="Assets\UI button pack 2\Scene\CreateObj.cs" />
     <Compile Include="Assets\Script\Shop\UI\Dialog.cs" />
     <Compile Include="Assets\Script\ManagerUI\MainMenu.cs" />
+    <Compile Include="Assets\Script\ManagerUI\UiManager.cs" />
+    <Compile Include="Assets\Script\ManagerUI\UI.cs" />
     <Compile Include="Assets\Script\Shop\Singleton.cs" />
     <Compile Include="Assets\Script\HandlePhysical\Ball.cs" />
     <Compile Include="Assets\TouchInput.cs" />
     <Compile Include="Assets\Script\HandlePhysical\ColliderObstacle.cs" />
+    <Compile Include="Assets\Fancy Footsteps\Example\ExampleAssets\ActivateAndDeactivateForExample.cs" />
     <Compile Include="Assets\Script\Shop\GameManager.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Script\Shop\UI\GUIManager.cs" />
@@ -76,13 +80,12 @@
     <Compile Include="Assets\Script\Shop\UI\ShopDialog.cs" />
     <Compile Include="Assets\Script\Shop\Player.cs" />
     <Compile Include="Assets\Script\Shop\Pref.cs" />
-    <Compile Include="Assets\UI button pack 2\Scene\CreateObj.cs" />
     <Compile Include="Assets\Script\ManagerUI\Setting.cs" />
-    <Compile Include="Assets\Fancy Footsteps\Example\ExampleAssets\ActivateAndDeactivateForExample.cs" />
-    <Compile Include="Assets\Script\ManagerUI\UI.cs" />
-    <Compile Include="Assets\Script\ManagerUI\UiManager.cs" />
+    <Compile Include="Assets\EpicVictoryEffects\Scripts\vfxController.cs" />
+    <Compile Include="Assets\EpicVictoryEffects\Scripts\starFxController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\EpicVictoryEffects\Readme.txt" />
     <None Include="Assets\CharacterPack Lowpoly (FREE)\README.txt" />
     <None Include="Assets\Fancy Footsteps\Shaders\S_VFX_Footsteps_Dissolve.shader" />
   </ItemGroup>

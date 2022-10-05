@@ -370,6 +370,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/EpicVictoryEffects/Scripts/starFxController.cs"
+"Assets/EpicVictoryEffects/Scripts/vfxController.cs"
 "Assets/Fancy Footsteps/Example/ExampleAssets/ActivateAndDeactivateForExample.cs"
 "Assets/Script/Enemy/EnemyMove.cs"
 "Assets/Script/HandlePhysical/Ball.cs"

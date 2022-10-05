@@ -30,11 +30,20 @@ public class PlayerMove : MonoBehaviour
 
     Animator m_animator;
 
+    public GameObject countObstacleEnemy;
+
+    public GameObject winGame;
+    public GameObject gameLoad;
+
+    public GameObject partialVictory;
+    private float time;
+
     private void Start()
     {
         copyBall = Instantiate(Ball, Vector3.zero + new Vector3(1.0f, 1.0f, -30.0f), Quaternion.identity);
         copyBall.transform.GetComponent<ColliderBall>().tag = "Player";
         copyBall.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+        countObstacleEnemy = GameObject.Find("ObstacleEnemy");
         haveBall = true;
     }
 
@@ -62,6 +71,22 @@ public class PlayerMove : MonoBehaviour
         } else
         {
             gravity.y = -9.8f;
+        }
+
+        obstacleEnemy();
+
+    }
+
+    public void obstacleEnemy()
+    {
+        if(countObstacleEnemy.transform.childCount == 4)
+        {
+            GameObject gameObjCube = GameObject.Find("Ball(Clone)");
+            Destroy(gameObjCube);
+            Instantiate(partialVictory, transform.position, transform.rotation);
+            gameLoad.SetActive(false);
+            winGame.SetActive(true);
+            time = Time.time + 2;
         }
     }
 
